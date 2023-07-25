@@ -52,12 +52,12 @@ a {
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .hero-text-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     flex: 0 0 500px;
     gap: 16px;
 }
@@ -84,10 +84,7 @@ a {
     width: 100px;
     border-radius: 5px;
     color: #ffffff;
-}
-
-.hero-img-container {
-    display: flex;
+    margin-bottom: 16px;
 }
 
 .hero-img {
