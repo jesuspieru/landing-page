@@ -30,17 +30,17 @@ a {
     align-items: center;
 }
 
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+}
+
 .list {
     display: flex;
     padding-left: 0;
     gap: 16px;
     list-style: none;
     font-size: 18px;
-    color: #ffffff;
-}
-
-.logo {
-    font-size: 24px;
     color: #ffffff;
 }
 
