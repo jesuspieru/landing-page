@@ -41,7 +41,10 @@ a {
     gap: 16px;
     list-style: none;
     font-size: 18px;
-    color: #ffffff;
+}
+
+.header-link {
+    color: #e5e7eb;
 }
 
 .hero-container {
@@ -67,8 +70,20 @@ a {
 
 .text-two {
     font-size: 18px;
-    color: #ffffff;
+    color: #e5e7eb;
     width: 450px;
+}
+
+.button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: #ffffff;
 }
 
 .hero-img-container {
