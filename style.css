@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 a {
@@ -89,4 +90,40 @@ a {
 
 .hero-img {
     width: 500px;
+}
+
+.container-two {
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.images-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 48px;
+}
+
+.images-info {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
+
+.text-info {
+    color: #1f2937;
+    text-align: center;
+    font-size: 14px;
 }
