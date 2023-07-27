@@ -33,7 +33,7 @@ a {
 
 .logo {
     font-size: 24px;
-    color: #ffffff;
+    color: #f9faf8;
 }
 
 .list {
@@ -66,7 +66,7 @@ a {
 .text-one {
     font-size: 48px;
     font-weight: bolder;
-    color: #ffffff;
+    color: #f9faf8;
 }
 
 .text-two {
@@ -80,11 +80,12 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
+    font-size: 14px;
     font-weight: bold;
     height: 30px;
     width: 100px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #f9faf8;
     margin-bottom: 16px;
 }
 
@@ -95,6 +96,7 @@ a {
 .container-two {
     margin-top: 50px;
     background-color: #ffffff;
+    color: #1f2937;
 }
 
 .info-header {
@@ -105,7 +107,6 @@ a {
 .info {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
 }
 
 .images-info-container {
@@ -123,7 +124,34 @@ a {
 }
 
 .text-info {
-    color: #1f2937;
     text-align: center;
     font-size: 14px;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quote-and-author {
+    width: 820px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
 }
