@@ -29,16 +29,20 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 16px;
 }
 
 .logo {
+    margin: 0;
+    padding: 0;
     font-size: 24px;
     color: #f9faf8;
 }
 
 .list {
     display: flex;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
     gap: 16px;
     list-style: none;
     font-size: 18px;
@@ -64,12 +68,16 @@ a {
 }
 
 .text-one {
+    margin: 0;
+    padding: 0;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
 .text-two {
+    margin: 0;
+    padding: 0;
     font-size: 18px;
     color: #e5e7eb;
     width: 450px;
@@ -105,6 +113,8 @@ a {
 }
 
 .info {
+    margin: 0;
+    padding: 0;
     font-size: 36px;
     font-weight: bolder;
 }
@@ -124,6 +134,8 @@ a {
 }
 
 .text-info {
+    margin: 0;
+    padding: 0;
     text-align: center;
     font-size: 14px;
 }
@@ -146,11 +158,15 @@ a {
 }
 
 .quote {
+    margin: 0;
+    padding: 0;
     font-size: 36px;
     font-style: italic;
 }
 
 .author {
+    margin: 0;
+    padding: 0;
     text-align: right;
     font-size: 16px;
     font-weight: bold;
