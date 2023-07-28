@@ -103,7 +103,7 @@ a {
 
 .container-two {
     margin-top: 50px;
-    background-color: #ffffff;
+    background-color: #f9faf8;
     color: #1f2937;
 }
 
@@ -170,4 +170,58 @@ a {
     text-align: right;
     font-size: 16px;
     font-weight: 700;
+}
+
+.container-four {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 125px;
+    gap: 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-one,
+.action-two {
+    margin: 0;
+    padding: 0;
+}
+
+.action-one {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.action-two {
+    color: #f9faf8;
+    font-size: 14px;
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 14px;
 }
