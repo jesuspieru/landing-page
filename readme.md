@@ -5,3 +5,7 @@
 2nd section: Random information and images
 
 3rd section: Inspiring quote
+
+4th section: call to action + signup
+
+5th section: footer, copyright and author
